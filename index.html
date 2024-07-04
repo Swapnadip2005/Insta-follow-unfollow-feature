@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card_container">
+      <div class="card">
+        <div class="profile">
+          <img src="profile.jpg" alt="" />
+        </div>
+        <p id="pro">PRO</p>
+        <h1>Lorem Ipsum</h1>
+        <p id="location">New York</p>
+        <p id="desp">Frontend and Backend Developer</p>
+        <div class="buttons">
+          <button id="follow">Follow</button>
+          <button id="msg">Message</button>
+        </div>
+      </div>
+      <div class="following_option">
+        <button id="btn_unfollow">Unfollow</button>
+      </div>
+      <div class="unfollow_container">
+        <div class="unfollow_profile">
+          <img src="./profile.jpg" alt="" />
+        </div>
+        <p>Are you sure, you want to unfollow <span>Lorem Ipsum</span> ?</p>
+        <div class="buttons_unfollow">
+          <button id="unfollow" style="color: rgb(206, 0, 0);">Unfollow</button>
+          <button id="cancel">Cancel</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
